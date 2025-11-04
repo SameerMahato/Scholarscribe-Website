@@ -1,9 +1,7 @@
 # Don't upload node modules (they are downloaded automatically)
 node_modules/
 
-# Don't upload build folders
-build/
-dist/
+# Don't upload build folders 
 .vite/
 
 # Don't upload environment config files (they may contain passwords)
@@ -18,5 +16,4 @@ logs
 # Don't upload your editor config files (VS Code settings)
 .vscode/
 
-# Don't upload Mac OS system files
-.DS_Store
+# Don't upload Mac OS system files 
